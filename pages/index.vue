@@ -1,11 +1,8 @@
 <template>
     <section>
         <h1>Talks</h1>
-
         <section class="bricks">
-
-            <v-talk></v-talk>
-
+            <v-talk v-for="(talk,index) in talks" :key="`talk-${index}`" :talk="talk"></v-talk>
         </section>
     </section>
 </template>
@@ -18,14 +15,13 @@
     export default {
         data() {
             return {
-
+                talks,
             }
         },
         components: {
             'v-talk': Talk,
         },
         created() {
-            console.log(talks);
         },
     }
 </script>
