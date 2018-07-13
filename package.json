@@ -1,0 +1,20 @@
+{
+  "name": "talks",
+  "version": "1.0.0",
+  "description": "Talks - Aurélien Loyer",
+  "author": "Aurélien Loyer @AurelienLoyer",
+  "private": true,
+  "dependencies": {
+    "nuxt": "latest"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "deploy": "push-dir --dir=dist --branch=master --cleanup"
+  },
+  "devDependencies": {
+    "push-dir": "^0.4.1"
+  }
+}
