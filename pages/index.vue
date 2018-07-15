@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section id="main">
         <h1>Talks</h1>
         <section class="bricks">
             <v-talk v-for="(talk,index) in talks" :key="`talk-${index}`" :talk="talk"></v-talk>
@@ -27,4 +27,12 @@
 </script>
 
 <style scoped>
+    #main {
+        max-width: 1200px;
+        margin: 50px auto;
+    }
+
+    .bricks{
+        padding: 1%;
+    }
 </style>

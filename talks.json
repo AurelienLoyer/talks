@@ -1,22 +1,25 @@
 [
   {
     "name": "Tout le monde sait comment utiliser Angular / React / Vue.js ... Mais savez-vous comment utiliser JavaScript ?",
+    "uname": "utiliser-angular-react-vuejs-comment-utiliser-javaScript",
     "description": "Aujourd’hui tout le monde connait les frameworks Angular, React Vuejs, mais savez-vous utiliser Javascript ? Savez-vous modifier votre framework favori, comprendre comment fonctionne un binding , comment fonctionne un router ? Et pourquoi utiliser un framework pour un simple POC alors que parfois il est si simple de revenir aux sources ? Et si on se posait les bonnes questions ?https://github.com/T3kstiil3/vanilla",
-    "picture": "default_picture_3.jpg",
+    "picture": "default_picture.jpg",
     "slide": "https://slides.com/aurelienloyer/vanilla",
     "hashtag": ["Vue.js", "Vanilla", "Angular", "React"],
     "sessions": ["Devfest Lille 2018"]
 },
 {
     "name": "Ne mets pas cette clé : tu risques de te faire hacker très fort !",
+    "uname": "usb-hacker-tres-fort",
     "description": "On nous demande souvent notre clé usb ou chargeur de téléphone. Mais ne faudrait-il pas se méfier de ces banals objets ? Pendant ce court moment nous allons vous montrer comment vous pouvez exécuter du code rapidement sur un ordinateur depuis “une simple clé usb” et ainsi pousser la réflexion sur les possibilités de “cette astuce” mais aussi les dangers de celle-ci.",
-    "picture": "default_picture_2.jpg",
+    "picture": "default_picture.jpg",
     "slide": "https://slides.com/aurelienloyer/attention-hacker-fort",
     "hashtag": ["arduino", "controller", "hack"],
     "sessions": ["Devoxx France 2018", "Meetup GDG @Kiabi"]
 },
 {
     "name": "Handson - VueJS",
+    "uname": "handson-vuejs",
     "description": "Test de description",
     "picture": "default_picture.jpg",
     "slide": "https://slides.com/aurelienloyer/handson-vuejs",
