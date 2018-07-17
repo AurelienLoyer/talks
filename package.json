@@ -12,7 +12,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "deploy": "push-dir --dir=dist --branch=master"
+    "deploy": "generate && git add docs && git commit -m 'feat(update): deploy new version 🎉' && git push"
   },
   "devDependencies": {
     "node-sass": "^4.9.2",
