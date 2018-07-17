@@ -12,7 +12,8 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
+    "geploy": "npm run generate && npm run deploy"
   },
   "devDependencies": {
     "node-sass": "^4.9.2",
