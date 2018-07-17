@@ -1,5 +1,5 @@
 <template>
-    <div class="brick" style="height: 335.656px;">
+    <div class="brick">
         <div class="brick__inner">
             <div class="brick__image">
                 <nuxt-link :to="'talks/' + talk.uname ">
@@ -15,11 +15,11 @@
             </div>
             <div class="brick__caption">
                 <div class="brick__caption-upper">
-                    <a target="_blank" :href="talk.slide" class="brick__title">
+                    <nuxt-link :to="'talks/' + talk.uname " class="brick__title">
                         {{ talk.name }}
-                    </a>
+                    </nuxt-link>
                     <span class="brick__tagline">
-                        {{ talk.description }}
+                        {{ talk.description.substr(0,200) }}...
                     </span>
                     <ul class="brick__sessions" v-if="talk.sessions">
                         <li v-for="session in talk.sessions">{{ session }}</li>
