@@ -5,7 +5,7 @@
     "description": "Aujourd’hui tout le monde connait les frameworks Angular, React Vuejs, mais savez-vous utiliser Javascript ? Savez-vous modifier votre framework favori, comprendre comment fonctionne un binding , comment fonctionne un router ? Et pourquoi utiliser un framework pour un simple POC alors que parfois il est si simple de revenir aux sources ? Et si on se posait les bonnes questions ?https://github.com/T3kstiil3/vanilla",
     "picture": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/7b08eb921f7a36ffbe97012974a2ec41/thumb.jpg",
     "slide": "https://slides.com/aurelienloyer/vanilla",
-    "hashtag": ["Vue.js", "Vanilla", "Angular", "React"],
+    "hashtag": ["Javacript", "Vue.js", "Vanilla", "Angular", "React"],
     "sessions": ["Devfest Lille 2018"]
 },
 {
@@ -14,13 +14,13 @@
     "description": "On nous demande souvent notre clé usb ou chargeur de téléphone. Mais ne faudrait-il pas se méfier de ces banals objets ? Pendant ce court moment nous allons vous montrer comment vous pouvez exécuter du code rapidement sur un ordinateur depuis “une simple clé usb” et ainsi pousser la réflexion sur les possibilités de “cette astuce” mais aussi les dangers de celle-ci.",
     "picture": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/8c5f69d61f14c19f8b913475095d221c/thumb.jpg",
     "slide": "https://slides.com/aurelienloyer/attention-hacker-fort",
-    "hashtag": ["arduino", "controller", "hack"],
+    "hashtag": ["arduino", "controller", "hack", "usb"],
     "sessions": ["Devoxx France 2018", "Meetup GDG @Kiabi"]
 },
 {
     "name": "Handson - VueJS",
     "uname": "handson-vuejs",
-    "description": "Test de description",
+    "description": "Depuis le temps que vous allez à des conférences, vous avez sûrement participé à des codelabs React et/ou Angular2. Vous êtes même devenu peut-être un expert sur l'une de ces technos. C'est pour cela que nous avons décidé de ne pas choisir l'un de ces deux projets.<br><br>Pendant ce codelab, nous avons choisi une toute autre librairie que nous sommes en train de tester pour des projets perso : VueJS. A travers ces 3 heures, nous allons aborder tous les concepts vous permettant de créer une application riche : composants, directives, mixins, routers, ...<br><br>A la fin de ce codelab, vous allez pouvoir vous rendre compte que VueJS gagne le combat des frameworks/librairies JavaScript par sa simplicité et sa facilité de mise en oeuvre, tout en réutilisant certains concepts de ses deux concurrents.",
     "picture": "https://s3.amazonaws.com/media-p.slid.es/thumbnails/7dbb790f36d57f5410cf3a7176720ee1/thumb.jpg",
     "slide": "https://slides.com/aurelienloyer/handson-vuejs",
     "sessions": ["Devfest Lille 2017", "Devoxx France 2017"],
