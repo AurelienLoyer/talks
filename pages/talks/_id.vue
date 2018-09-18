@@ -2,7 +2,7 @@
     <div>
         <div class="brick__container" v-if="talk.name">
             <div class="detail__left">
-                <div class="detail__picture" style="background-image: '/default_picture.jpg'" alt=""></div>
+                <div class="detail__picture" :style="`background-image: url(${talk.picture});`" alt=""></div>
             </div>
             <div class="detail__right">
                 <div class="detail-info">
@@ -37,6 +37,7 @@
                 </div>
             </div>
         </div>
+        <v-other-talks :exclude="talk.uname"></v-other-talks>
     </div>
 </template>
 
@@ -55,7 +56,8 @@
         },
         methods: {
             cleanUrl(url) {
-                return url;
+                return url.replace('https://','')
+                    .replace('http://')
             },
         }
     }
@@ -80,6 +82,12 @@
         transition: all .2s ease-out;
         -webkit-box-shadow: 0 2px 43px -4px rgba(0, 0, 0, .19);
         box-shadow: 0 2px 43px -4px rgba(0, 0, 0, .19);
+    }
+
+    .detail__picture{
+        height: 100%;
+    background-size: cover;
+    background-position: center;
     }
 
     .content__block h1 {
