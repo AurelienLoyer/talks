@@ -1,3 +1,5 @@
+const talks = require('./talks.json');
+
 module.exports = {
   head: {
     title: "Talks | Loyer Aurélien",
@@ -24,5 +26,11 @@ module.exports = {
       },
       { rel: "stylesheet", href: "/main.css" }
     ]
+  },
+  generate: {
+    routes: function (callback) {
+      const routes = talks.map(talk => `/talks/${talk.uname}`);
+      callback(null, routes);
+    }
   }
 };
