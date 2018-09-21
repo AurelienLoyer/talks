@@ -43,12 +43,16 @@
 
 <script>
 import talks from "../../talks.json";
+import otherTalks from '../../components/OtherTalks'
 
 export default {
   data() {
     return {
       talk: {}
     };
+  },
+  components: {
+    'v-other-talks': otherTalks,
   },
   mounted() {
     this.talk = talks.find(talk => talk.uname === this.$route.params.id);
